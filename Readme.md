@@ -13,7 +13,7 @@ Here's the result based on [70 data points](output-images-only.txt) from Taylor 
 * X axis = Number of Instagram Likes
 * Y axis = MemScore from the LaMem algorithm
 
-* Correlation coefficient (r): *-0.0933*
+* Correlation coefficient (r): **0.0933**
 
 (Linear regression output via http://www.alcula.com/calculators/statistics/linear-regression/.)
 
