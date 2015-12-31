@@ -4,14 +4,16 @@ I was intrigued by the news headline that ["Scientists have uncovered exactly wh
 
 Fortunately, it's relatively fast to use the Instagram API and LaMem API to get output data that can be graphed to better understand the correlation between social media "likes" and the "memscore".
 
-I have not found any strong correlation. Here's the result based on 30 data points from Taylor Swift (the most popular Instagram celebrity) from July to Sept 2015:
+I have not found any strong correlation. 
 
-![Linear Regression Image](linear-regression-image.png)
+Here's the result based on (70 data points)[output-images-only.txt] from Taylor Swift (the most popular Instagram celebrity) from July to Oct 2015:
 
-X axis = Number of Instagram Likes
-Y axis = MemScore from the LaMem algorithm
+![Linear Regression Image](linear-regression-images.png)
 
-Correlation coefficient (r): -0.1125
+* X axis = Number of Instagram Likes
+* Y axis = MemScore from the LaMem algorithm
+
+* Correlation coefficient (r): -0.0933
 
 Linear regression output via http://www.alcula.com/calculators/statistics/linear-regression/.
 

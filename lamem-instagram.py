@@ -12,7 +12,6 @@ instagramURL = "https://www.instagram.com/taylorswift/media/"
 #instagramURL = "https://api.instagram.com/v1/users/11830955/media/recent?access_token=2912979.87fdd31.0949d22f4a714349ae84643c5af165ef&max_id=1078363953501761596_11830955"
 #instagramURL = "https://api.instagram.com/v1/users/11830955/media/recent?access_token=2912979.87fdd31.0949d22f4a714349ae84643c5af165ef&max_id=1060697492037759175_11830955"
 #instagramURL = "https://api.instagram.com/v1/users/11830955/media/recent?access_token=2912979.87fdd31.0949d22f4a714349ae84643c5af165ef&max_id=1050221392618779437_11830955"
-
 instagramURL = "https://api.instagram.com/v1/users/11830955/media/recent?access_token=2912979.87fdd31.0949d22f4a714349ae84643c5af165ef&max_id=1041378278638547805_11830955"
 
 memScoreBaseURL = "http://memorability.csail.mit.edu/cgi-bin/image.py?url="
@@ -26,7 +25,7 @@ for i in range(0, len(results)):
 
 	# skip videos
 	isVideo = results[i].get("videos", False)
-	if isVideo == False:
+	if isVideo != False:
 		continue # skip!
 
 	# get photo stuff
